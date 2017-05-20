@@ -1,0 +1,27 @@
+<h1>
+  {{title}}
+</h1>
+
+<div class="container col-md-6 col-md-offset-3">
+  <!-- Навигация -->
+  <nav >
+
+    <ul  class="nav nav-pills">
+      <li> <a routerLink="/" >Список покупок</a></li>
+      <li><a routerLink="/cart" >Корзина</a></li>
+    </ul>
+
+  </nav>
+  <!-- Конец навигации -->
+
+  <section ><!-- основной блок -->
+
+    <router-outlet></router-outlet>
+
+  </section>
+
+
+  <footer ><!-- Футер сайта -->
+    <!-- ......... -->
+  </footer>
+</div>
